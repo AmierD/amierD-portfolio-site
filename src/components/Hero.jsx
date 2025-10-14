@@ -10,6 +10,7 @@ export default function Hero() {
                     Student. Former <br />
                     Google Intern.
                 </h1>
+                {/* TODO: add about me button */}
                 <div className="hero-buttons">
                     <a href="/src/assets/AmierDResume091025.pdf" target="_blank" rel="noopener noreferrer">
                         Download Resume

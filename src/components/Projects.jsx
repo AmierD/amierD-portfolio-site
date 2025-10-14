@@ -8,8 +8,8 @@ export default function Projects() {
             <div className="projects">
                 <h2>Projects</h2>
                 <div className="project-card-container">
-                    <ProjectCard key={projects[0].id} project={projects[0]} />
-                    <ProjectCard key={projects[1].id} project={projects[1]} />
+                    <ProjectCard project={projects[0]} />
+                    <ProjectCard project={projects[1]} />
                 </div>
                 
             </div>

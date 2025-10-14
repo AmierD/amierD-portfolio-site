@@ -6,9 +6,11 @@ export default function About() {
         <section id="about">
             <div className="about">
                 <h2>About me</h2>
+                {/* TODO: add scrolling collage of photos instead of headshot photo */}
                 <img src={headshotPhoto} alt="About me" />
                 {/* TODO: add colored/bolded/italicized text, make text more personable instead of just descriptive */}
                 <div>
+                    {/* Can eventually separate these into multiple sections, each w/ their own picture/collage */}
                     <p>
                     &emsp;&emsp;Hi, I'm Amier! I am a student at Hampton University studying Computer Science
                     with a focus in Artificial Intelligence & Machine Learning. At Hampton I am a 
