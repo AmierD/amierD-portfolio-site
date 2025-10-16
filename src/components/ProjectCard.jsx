@@ -4,10 +4,9 @@ import '../App.css'
 export default function ProjectCard({ project }) {
     return (
         <article className="project-card">
-            {/* TODO: Add "Learn More" button? */}
+            {/* TODO: Add "Learn More" button that expands to a full article of the project? */}
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <a href={project.gitHubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
             <div className="project-card-technology-container">
                 {project.technologies.map((tech) => (
                     <ProjectTechnology
@@ -16,6 +15,8 @@ export default function ProjectCard({ project }) {
                     />
                 ))}
             </div>
+            {/* TODO: Add github logo to button */}
+            <a href={project.gitHubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
         </article>
     )
 }

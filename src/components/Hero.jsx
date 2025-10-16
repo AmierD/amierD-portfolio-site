@@ -3,7 +3,6 @@ import '../App.css'
 export default function Hero() {
     return (
         <section id="hero">
-            {/* TODO: fix layout broken on desktop */}
             <div className="hero">
                 <h1>
                     Computer Science <br />

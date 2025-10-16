@@ -11,11 +11,14 @@ const accolades = [
 export default function Ticker() {
     return (
         <div className="ticker-track">
-            {accolades.map((accolade, index) => (
-                <div key={index} className="ticker-element">{accolade}</div>
+            {accolades.map((accolade) => (
+                <div className="ticker-element">{accolade}</div>
             ))}
-            {accolades.map((accolade, index) => (
-                <div key={index} className="ticker-element" aria-hidden="true">{accolade}</div>
+            {accolades.map((accolade) => (
+                <div className="ticker-element" aria-hidden="true">{accolade}</div>
+            ))}
+            {accolades.map((accolade) => (
+                <div className="ticker-element" aria-hidden="true">{accolade}</div>
             ))}
         </div>
     )
