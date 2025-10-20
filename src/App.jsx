@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import './App.css'
 
 function App() {
-  const resumePath = "/src/assets/AmierDResume101925.pdf";
+  const resumePath = "./assets/AmierDResume101925.pdf";
   return (
     <>
       {/* viewport for mobile responsiveness + disable zoom */}

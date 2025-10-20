@@ -4,6 +4,7 @@ export default function Hero({ resumePath }) {
     return (
         <section id="hero">
             <div className="hero">
+                {/* Add background image */}
                 <h1>
                     Computer Science <br />
                     Student. Former <br />
