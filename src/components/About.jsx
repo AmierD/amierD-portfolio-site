@@ -5,7 +5,7 @@ export default function About() {
     return (
         <section id="about">
             <div className="about">
-                <h2>About me</h2>
+                <h2>About</h2>
                 {/* TODO:
                     - Make each paragraph of the about bio be its own "slide"
                     with a button to go to the next/previous slide

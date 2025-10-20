@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../App.css'
+import { svgs } from '../assets/svgs.jsx';
 export default function Contact() {
     const [isValid, setIsValid] = useState(false);
     const handleChange = () => {
@@ -24,9 +25,7 @@ export default function Contact() {
                         <textarea id="message" placeholder="Enter your message" required={true} name="message" onChange={handleChange}/>
                         <button type="submit" disabled={!isValid}>
                             Send
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="var(--text-color)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>  
+                            {svgs.find((svg) => svg.name === "send").svg()}
                         </button>
                     </form>
                 </div>
