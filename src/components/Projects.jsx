@@ -9,6 +9,7 @@ export default function Projects() {
                 <h2>Projects</h2>
                 <div className="project-card-container">
                     <ProjectCard project={projects[0]} />
+                    <ProjectCard project={projects[1]} />
                 </div>
                 
             </div>
