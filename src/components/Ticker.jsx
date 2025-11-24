@@ -6,6 +6,7 @@ const accolades = [
     "CS: AI/ML @ Hampton University | Deans List",
     "Ex-Intern @ Google | Android XR",
     "Amazon Guides Mentee",
+    "MLT Fellow"
 ];
 
 export default function Ticker() {

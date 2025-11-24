@@ -8,8 +8,9 @@ export default function Projects() {
             <div className="projects">
                 <h2>Projects</h2>
                 <div className="project-card-container">
-                    <ProjectCard project={projects[0]} />
-                    <ProjectCard project={projects[1]} />
+                    {projects.map((project) => (
+                        <ProjectCard key={project.name} project={project} />
+                    ))}
                 </div>
                 
             </div>
