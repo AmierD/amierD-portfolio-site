@@ -4,6 +4,8 @@ import { svgs } from '../assets/svgs.jsx';
 export default function Hero({ resumePath }) {
     return (
         <section id="hero">
+            <div className="hero-image"></div>
+            <div className="hero-image2"></div>
             <div className="hero">
                 {/* Add background image/video */}
                 <h1>
